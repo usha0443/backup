@@ -33,7 +33,7 @@ chmod +x backup.sh
 3. (Optional) Edit `backup.conf` to customize:
 
 ```
-BACKUP_DESTINATION=/home/backups
+BACKUP_DESTINATION=mnt/c/Users/Lenovo/Documents/backup/backups
 EXCLUDE_PATTERNS=".git,node_modules,.cache"
 DAILY_KEEP=7
 WEEKLY_KEEP=4
@@ -70,9 +70,8 @@ backup-YYYY-MM-DD-HHMM.tar.gz
 Example:
 
 ```
-backup-2024-11-03-1430.tar.gz
+backups/backup-2025-11-21-1904.tar.gz
 ```
-<img width="1419" height="229" alt="Screenshot 2025-11-07 172210" src="https://github.com/user-attachments/assets/5c07eb01-531f-48be-b85e-20bef8cc74b8" />
 
 ### Excluding Unnecessary Files
 
@@ -99,8 +98,8 @@ Backups older than these are deleted.
 
 ```
 backups/
- ├── backup-2025-02-01-1200.tar.gz
- ├── backup-2025-01-28-1200.tar.gz.md5
+ ├──backup-2025-11-21-1807.tar.gz
+ ├──backup-2025-11-21-1814.tar.gz
  └── ...
 ```
 
@@ -135,9 +134,19 @@ backups/
 ### Example Output
 
 ```
-[2025-02-12 14:30:15] INFO: Starting backup of /home/user/Documents
-[2025-02-12 14:30:45] SUCCESS: Backup created: backup-2025-02-12-1430.tar.gz
-[2025-02-12 14:30:50] SUCCESS: Checksum verified successfully
+[2025-11-21 18:07:54] INFO: Creating backup: /tmp/backups/backup-2025-11-21-1807.tar.gz
+[2025-11-21 18:07:53] SUCCESS: Backup created and checksum saved.
+[2025-11-21 18:14:13] INFO: Creating backup: /tmp/backups/backup-2025-11-21-1814.tar.gz
+[2025-11-21 18:14:13] SUCCESS: Backup created and checksum saved.
+[2025-11-21 18:24:34] INFO: Creating backup: /home/usha/BACKUP/backup-2025-11-21-1824.tar.gz
+[2025-11-21 18:24:34] SUCCESS: Backup created and checksum saved.
+[2025-11-21 18:51:13] INFO: Creating backup: /home/usha/BACKUP/backup-2025-11-21-1851.tar.gz
+[2025-11-21 18:51:13] SUCCESS: Backup created and checksum saved.
+[2025-11-21 19:04:59] INFO: Creating backup: /mnt/c/Users/Lenovo/Documents/backup/backups/backup-2025-11-21-1904.tar.gz
+[2025-11-21 19:04:59] SUCCESS: Backup created and checksum saved.
+[2025-11-21 19:20:52] INFO: Creating backup: /mnt/c/Users/Lenovo/Documents/backup/backups/backup-2025-11-21-1920.tar.gz
+[2025-11-21 19:20:52] SUCCESS: Backup created and checksum saved.
+
 ```
 
 ---
