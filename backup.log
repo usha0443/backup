@@ -1,0 +1,12 @@
+[2025-11-21 18:07:54] INFO: Creating backup: /tmp/backups/backup-2025-11-21-1807.tar.gz
+[2025-11-21 18:07:53] SUCCESS: Backup created and checksum saved.
+[2025-11-21 18:14:13] INFO: Creating backup: /tmp/backups/backup-2025-11-21-1814.tar.gz
+[2025-11-21 18:14:13] SUCCESS: Backup created and checksum saved.
+[2025-11-21 18:24:34] INFO: Creating backup: /home/usha/BACKUP/backup-2025-11-21-1824.tar.gz
+[2025-11-21 18:24:34] SUCCESS: Backup created and checksum saved.
+[2025-11-21 18:51:13] INFO: Creating backup: /home/usha/BACKUP/backup-2025-11-21-1851.tar.gz
+[2025-11-21 18:51:13] SUCCESS: Backup created and checksum saved.
+[2025-11-21 19:04:59] INFO: Creating backup: /mnt/c/Users/Lenovo/Documents/backup/backups/backup-2025-11-21-1904.tar.gz
+[2025-11-21 19:04:59] SUCCESS: Backup created and checksum saved.
+[2025-11-21 19:20:52] INFO: Creating backup: /mnt/c/Users/Lenovo/Documents/backup/backups/backup-2025-11-21-1920.tar.gz
+[2025-11-21 19:20:52] SUCCESS: Backup created and checksum saved.
